@@ -3,8 +3,7 @@
 
 
 
-
-Since Facebook has announced [React Native](http://facebook.github.io/react-native/) as the world-class frameworks by using JaveScript and React, many programmer was excited to learn it. Because the company which I'm interested in is using React Native for developing their apps, so I decided to give it a shot. I hope I can finish this project before May.
+Since Facebook has announced [React Native](http://facebook.github.io/react-native/) as the world-class frameworks by using JaveScript and React, many programmers were excited to learn it. Because the company which I'm interested in is using React Native for developing their apps, so I decided to give it a shot. I hope to be able to finish this project before May.
 
 
 
@@ -20,7 +19,7 @@ In this project, I learned how to:
 * Use `CSS` for styling the components.
 * Use functions with Text's attribute `onPress`.
 * Build a custom Navigation Bar with `Navigator`.
-* Save and update component's apperance and data with `State`.
-* Unstand the basic knowledges of the `React Native` iOS app.
+* Save and update component's appearance and data with `State`.
+* Understand the basic knowledges of the `React Native` iOS app.
 
 Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
