@@ -5,6 +5,7 @@ import React, {  // 相当于 using namespace
   AppRegistry,
   Component,
   Text,
+  StyleSheet,
   View,
   Navigator,
   TouchableHighlight
