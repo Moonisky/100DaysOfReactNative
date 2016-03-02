@@ -12,7 +12,7 @@ Since Facebook has announced [React Native](http://facebook.github.io/react-nati
 
 > March 2， 2016
 
-![Tap Counter](https://github.com/SemperIdem/100DaysOfReactNative/raw/master/Resources/#1 TapCounter.gif)
+![Tap Counter](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/%231%20TapCounter.gif)
 
 In this project, I learned how to:
 
