@@ -9,7 +9,7 @@ Since Facebook has announced [React Native](http://facebook.github.io/react-nati
 
 ##Project 1: Tap Counter
 
-> March 2， 2016
+> March 2, 2016
 
 ![Tap Counter](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/%231%20TapCounter.gif)
 
@@ -23,3 +23,21 @@ In this project, I learned how to:
 * Understand the basic knowledges of the `React Native` iOS app.
 
 Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
+
+New Functionalities: [Text](http://facebook.github.io/react-native/docs/text.html#content), [TouchableHightlight](http://facebook.github.io/react-native/docs/touchablehighlight.html#content), [Navigator](http://facebook.github.io/react-native/docs/navigator.html#content), [Style](http://facebook.github.io/react-native/docs/style.html#content)
+
+##Project 2: Tap Or Hold Counter
+
+> March 3, 2016
+
+![Tap Or Hold Counter](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/%232%20TapOrHoldCounter.gif)
+
+In this project, I learned how to:
+
+* Use Gesture Responder with `OnPressIn` and `onPressOut`.
+* Work with multiple actions on one button
+* Use Timer for handling continuously counting with `setInterval` and `clearInterval`.
+
+Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
+
+New Functionalities: [Gesture Responder System](http://facebook.github.io/react-native/docs/gesture-responder-system.html#content), [Timers](http://facebook.github.io/react-native/docs/timers.html#content)
