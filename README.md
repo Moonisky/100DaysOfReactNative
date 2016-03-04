@@ -46,6 +46,8 @@ New Functionalities: [Gesture Responder System](http://facebook.github.io/react-
 
 > March 4, 2016
 
+![Tax Calculator](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/%233%20TaxCalculator.gif)
+
 In this project, I learned how to:
 
 * Use `TextInput` to input the text.
