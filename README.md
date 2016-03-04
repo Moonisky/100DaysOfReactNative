@@ -41,3 +41,21 @@ In this project, I learned how to:
 Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
 
 New Functionalities: [Gesture Responder System](http://facebook.github.io/react-native/docs/gesture-responder-system.html#content), [Timers](http://facebook.github.io/react-native/docs/timers.html#content)
+
+##Project 3: Tax Calculator
+
+> March 4, 2016
+
+In this project, I learned how to:
+
+* Use `TextInput` to input the text.
+* Set the placeholder, text color and so on of `TextInput`.
+* Get values from the `SliderIOS` and convert them to `Int`.
+* Set up the FlexBox layout.
+* Enable or disable objects based on state.
+* Handle calculations with formulas.
+* Convert String to Int and vice versa.
+
+Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
+
+New Functionalities: [TextInput](http://facebook.github.io/react-native/docs/textinput.html#content), [SliderIOS](http://facebook.github.io/react-native/docs/sliderios.html#content), [FlexBox Layout](http://facebook.github.io/react-native/docs/flexbox.html#content)
