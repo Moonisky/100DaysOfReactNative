@@ -61,3 +61,23 @@ In this project, I learned how to:
 Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
 
 New Functionalities: [TextInput](http://facebook.github.io/react-native/docs/textinput.html#content), [SliderIOS](http://facebook.github.io/react-native/docs/sliderios.html#content), [FlexBox Layout](http://facebook.github.io/react-native/docs/flexbox.html#content)
+
+##Project 4: Basic ListView
+
+> March 8, 2016
+
+![Basic ListView](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/%234%20BasicListView.gif)
+
+In this project, I learned how to:
+
+* Build a `ListView` with DataSource.
+* Build a custom **Nav Bar** and work with **Nav Bar Buttons**.
+* Populate **List Rows** with local data.
+* Edit `ListView` data.
+* Import and export a custom component.
+* Use `props` to handle communications between two components.
+* Use `Alert` and `AlertIOS` to show message and prompt the user for input.
+
+Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
+
+New Functionalities: [AlertIOS](http://facebook.github.io/react-native/docs/alertios.html#content), [Alert](http://facebook.github.io/react-native/docs/alert.html#content), [ListView](http://facebook.github.io/react-native/docs/flexbox.html#content(http://facebook.github.io/react-native/docs/listview.html#content)
