@@ -80,4 +80,5 @@ In this project, I learned how to:
 
 Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
 
-New Functionalities: [AlertIOS](http://facebook.github.io/react-native/docs/alertios.html#content), [Alert](http://facebook.github.io/react-native/docs/alert.html#content), [ListView](http://facebook.github.io/react-native/docs/flexbox.html#content(http://facebook.github.io/react-native/docs/listview.html#content)
+New Functionalities: [AlertIOS](http://facebook.github.io/react-native/docs/alertios.html#content), [Alert](http://facebook.github.io/react-native/docs/alert.html#content), [ListView](http://facebook.github.io/react-native/docs/listview.html#content)
+
