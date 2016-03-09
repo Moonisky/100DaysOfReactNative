@@ -83,7 +83,7 @@ New Functionalities: [AlertIOS](http://facebook.github.io/react-native/docs/aler
 
 > March 9, 2016
 
-![GetTime](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/%234%20BasicListView.gif)
+![GetTime](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/%235%20BasicListView.gif)
 
 In this project, I learned how to:
 
