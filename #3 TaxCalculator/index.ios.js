@@ -53,7 +53,7 @@ class HomePage extends Component {
           </Text>
         </View>
         <View style = {styles.flowRight}>
-          <SliderIOS style = {styles.slider} 
+          <SliderIOS style = {styles.slider}
             disabled = {this.state.inputText == ''}
             onValueChange = {this.onSliderValueChange.bind(this)}
           />
@@ -91,7 +91,7 @@ class _100DaysOfReactNative extends Component {
           <HomePage title={route.title} navigator={navigator} />
         }
         navigationBar = {
-          <Navigator.NavigationBar 
+          <Navigator.NavigationBar
           routeMapper = {NavigationBarRouteMapper}
           style = {styles.navBar}
         />}
@@ -172,6 +172,6 @@ var NavigationBarRouteMapper = {
       </Text>
     );
   },
-}; 
+};
 
 AppRegistry.registerComponent('_100DaysOfReactNative', () => _100DaysOfReactNative);

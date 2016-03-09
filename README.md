@@ -1,11 +1,8 @@
 # 100 Days Of React Native
+
 > Learning Facebook's new frameworks React Native for building native apps
 
-
-
 Since Facebook has announced [React Native](http://facebook.github.io/react-native/) as the world-class frameworks by using JaveScript and React, many programmers were excited to learn it. Because the company which I'm interested in is using React Native for developing their apps, so I decided to give it a shot. I hope to be able to finish this project before May.
-
-
 
 ##Project 1: Tap Counter
 
@@ -82,3 +79,17 @@ Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http:/
 
 New Functionalities: [AlertIOS](http://facebook.github.io/react-native/docs/alertios.html#content), [Alert](http://facebook.github.io/react-native/docs/alert.html#content), [ListView](http://facebook.github.io/react-native/docs/listview.html#content)
 
+##Project 5: Getting Current Date and Time
+
+> March 9, 2016
+
+![GetTime](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/%234%20BasicListView.gif)
+
+In this project, I learned how to:
+
+* Work with Javascript Fucntion `Date`.
+* Set the current date and time based on the user's iPhone settings.
+* Format the date to the user's URC time.
+* Refresh date and time automatically.
+
+Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
