@@ -93,3 +93,20 @@ In this project, I learned how to:
 * Refresh date and time automatically.
 
 Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
+
+##Project 6: Passing Data To Another View
+
+> March 10, 2016
+
+![GetTime](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/%236%20PassingData.gif)
+
+In this project, I learned how to:
+
+* Use `Navigator` to transition between two views with `Push` and `Pop` methods.
+* Create the apart `Route` to handle the route of `Navigator`.
+* Use components from another files.
+* Use `RCTDeviceEventEmitter` to emit and listen the events.
+
+Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
+
+New Functionalities: [RCTDeviceEventEmitter](http://facebook.github.io/react-native/docs/alertios.html#content)
