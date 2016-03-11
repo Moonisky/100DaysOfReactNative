@@ -2,7 +2,7 @@
 
 > Learning Facebook's new frameworks React Native for building native apps
 
-Since Facebook has announced [React Native](http://facebook.github.io/react-native/) as the world-class frameworks by using JaveScript and React, many programmers were excited to learn it. Because the company which I'm interested in is using React Native for developing their apps, so I decided to give it a shot. I hope to be able to finish this project before May.
+Since Facebook has announced [React Native](http://facebook.github.io/react-native/) as the world-class frameworks by using JaveScript and React, many programmers were pleased to learn it. Because the company which I'm interested in is using React Native for developing their apps, so I decided to give it a shot. I wish I could be able to finish this project before May.
 
 ##Project 1: Tap Counter
 
@@ -49,9 +49,9 @@ In this project, I learned how to:
 
 * Use `TextInput` to input the text.
 * Set the placeholder, text color and so on of `TextInput`.
-* Get values from the `SliderIOS` and convert them to `Int`.
+* Get values from the `SliderIOS` and then convert them to `Int`.
 * Set up the FlexBox layout.
-* Enable or disable objects based on state.
+* Enable or disable objects built on the state.
 * Handle calculations with formulas.
 * Convert String to Int and vice versa.
 
@@ -72,8 +72,8 @@ In this project, I learned how to:
 * Populate **List Rows** with local data.
 * Edit `ListView` data.
 * Import and export a custom component.
-* Use `props` to handle communications between two components.
-* Use `Alert` and `AlertIOS` to show message and prompt the user for input.
+* Use `props` to manage communications between two components.
+* Use `Alert` and `AlertIOS` to display message and prompt the user for input.
 
 Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
 
@@ -111,7 +111,7 @@ Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http:/
 
 New Functionalities: [RCTDeviceEventEmitter](http://facebook.github.io/react-native/docs/alertios.html#content)
 
-##Project 7: Convert React Native Project From Objective-C To Swift
+##Project 7: Swift In React Native
 
 > March 11, 2016
 
