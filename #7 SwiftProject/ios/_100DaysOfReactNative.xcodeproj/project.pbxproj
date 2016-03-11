@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8182F4C1C93074C0068241C /* MapManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = D8182F4B1C93074C0068241C /* MapManagerBridge.m */; };
+		D85435931C91D46C00D19EF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85435921C91D46C00D19EF4 /* AppDelegate.swift */; };
+		D854359A1C91D46C00D19EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85435991C91D46C00D19EF4 /* Assets.xcassets */; };
+		D854359D1C91D46C00D19EF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D854359B1C91D46C00D19EF4 /* LaunchScreen.storyboard */; };
+		D85435A81C91D46C00D19EF4 /* _100DaysOfReactNativeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85435A71C91D46C00D19EF4 /* _100DaysOfReactNativeTests.swift */; };
+		D87426411C926551005244B7 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D87426401C92654D005244B7 /* libRCTLinking.a */; };
+		D874266F1C9265B8005244B7 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D87426691C9265A8005244B7 /* libRCTActionSheet.a */; };
+		D87426701C9265B8005244B7 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D87426641C92659F005244B7 /* libRCTGeolocation.a */; };
+		D87426711C9265B8005244B7 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D874265F1C926596005244B7 /* libRCTImage.a */; };
+		D87426721C9265B8005244B7 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D874265A1C92658D005244B7 /* libRCTNetwork.a */; };
+		D87426731C9265B8005244B7 /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D87426551C926584005244B7 /* libRCTSettings.a */; };
+		D87426741C9265B8005244B7 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D87426501C92657B005244B7 /* libRCTText.a */; };
+		D87426751C9265B8005244B7 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D874264B1C926573005244B7 /* libRCTVibration.a */; };
+		D87426761C9265B8005244B7 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D87426461C926565005244B7 /* libRCTWebSocket.a */; };
+		D87426771C9265B8005244B7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D874266E1C9265B3005244B7 /* libReact.a */; };
+		D874267D1C926905005244B7 /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874267C1C926905005244B7 /* MapManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D85435A41C91D46C00D19EF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85435871C91D46C00D19EF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D854358E1C91D46C00D19EF4;
+			remoteInfo = _100DaysOfReactNative;
+		};
+		D874263F1C92654D005244B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D874263B1C92654D005244B7 /* RCTLinking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTLinking;
+		};
+		D87426451C926565005244B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85435E31C91D64A00D19EF4 /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C86DF461ADF2C930047B81A;
+			remoteInfo = RCTWebSocket;
+		};
+		D874264A1C926573005244B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85435DD1C91D63A00D19EF4 /* RCTVibration.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 832C81801AAF6DEF007FA2F7;
+			remoteInfo = RCTVibration;
+		};
+		D874264F1C92657B005244B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85435D71C91D60600D19EF4 /* RCTText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
+			remoteInfo = RCTText;
+		};
+		D87426541C926584005244B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85435D11C91D5EF00D19EF4 /* RCTSettings.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTSettings;
+		};
+		D87426591C92658D005244B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85435CB1C91D5DD00D19EF4 /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B511DB1A9E6C8500147676;
+			remoteInfo = RCTNetwork;
+		};
+		D874265E1C926596005244B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85435C51C91D5BF00D19EF4 /* RCTImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5115D1A9E6B3D00147676;
+			remoteInfo = RCTImage;
+		};
+		D87426631C92659F005244B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85435BF1C91D58600D19EF4 /* RCTGeolocation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTGeolocation;
+		};
+		D87426681C9265A8005244B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85435B91C91D56300D19EF4 /* RCTActionSheet.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTActionSheet;
+		};
+		D874266D1C9265B3005244B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85435B21C91D52500D19EF4 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8182F4B1C93074C0068241C /* MapManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapManagerBridge.m; path = RNManager/MapManagerBridge.m; sourceTree = "<group>"; };
+		D854358F1C91D46C00D19EF4 /* _100DaysOfReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = _100DaysOfReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85435921C91D46C00D19EF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D85435991C91D46C00D19EF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D854359C1C91D46C00D19EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D854359E1C91D46C00D19EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85435A31C91D46C00D19EF4 /* _100DaysOfReactNativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = _100DaysOfReactNativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85435A71C91D46C00D19EF4 /* _100DaysOfReactNativeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _100DaysOfReactNativeTests.swift; sourceTree = "<group>"; };
+		D85435A91C91D46C00D19EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85435B21C91D52500D19EF4 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		D85435B91C91D56300D19EF4 /* RCTActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTActionSheet.xcodeproj; path = "../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj"; sourceTree = "<group>"; };
+		D85435BF1C91D58600D19EF4 /* RCTGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTGeolocation.xcodeproj; path = "../node_modules/react-native/Libraries/Geolocation/RCTGeolocation.xcodeproj"; sourceTree = "<group>"; };
+		D85435C51C91D5BF00D19EF4 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
+		D85435CB1C91D5DD00D19EF4 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
+		D85435D11C91D5EF00D19EF4 /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
+		D85435D71C91D60600D19EF4 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		D85435DD1C91D63A00D19EF4 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
+		D85435E31C91D64A00D19EF4 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
+		D85435F21C91D71800D19EF4 /* _100DaysOfReactNative-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "_100DaysOfReactNative-Bridging-Header.h"; sourceTree = "<group>"; };
+		D874263B1C92654D005244B7 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		D874267C1C926905005244B7 /* MapManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapManager.swift; path = RNManager/MapManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D854358C1C91D46C00D19EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D874266F1C9265B8005244B7 /* libRCTActionSheet.a in Frameworks */,
+				D87426701C9265B8005244B7 /* libRCTGeolocation.a in Frameworks */,
+				D87426711C9265B8005244B7 /* libRCTImage.a in Frameworks */,
+				D87426721C9265B8005244B7 /* libRCTNetwork.a in Frameworks */,
+				D87426731C9265B8005244B7 /* libRCTSettings.a in Frameworks */,
+				D87426741C9265B8005244B7 /* libRCTText.a in Frameworks */,
+				D87426751C9265B8005244B7 /* libRCTVibration.a in Frameworks */,
+				D87426761C9265B8005244B7 /* libRCTWebSocket.a in Frameworks */,
+				D87426771C9265B8005244B7 /* libReact.a in Frameworks */,
+				D87426411C926551005244B7 /* libRCTLinking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85435A01C91D46C00D19EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D85435861C91D46C00D19EF4 = {
+			isa = PBXGroup;
+			children = (
+				D85435F11C91D65300D19EF4 /* Libraries */,
+				D85435911C91D46C00D19EF4 /* _100DaysOfReactNative */,
+				D85435A61C91D46C00D19EF4 /* _100DaysOfReactNativeTests */,
+				D85435901C91D46C00D19EF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D85435901C91D46C00D19EF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D854358F1C91D46C00D19EF4 /* _100DaysOfReactNative.app */,
+				D85435A31C91D46C00D19EF4 /* _100DaysOfReactNativeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D85435911C91D46C00D19EF4 /* _100DaysOfReactNative */ = {
+			isa = PBXGroup;
+			children = (
+				D874267B1C9268C8005244B7 /* RNManager */,
+				D874267A1C9268B8005244B7 /* UserInterface */,
+				D87426791C9268B0005244B7 /* Resources */,
+				D87426781C9268A4005244B7 /* Application */,
+			);
+			path = _100DaysOfReactNative;
+			sourceTree = "<group>";
+		};
+		D85435A61C91D46C00D19EF4 /* _100DaysOfReactNativeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D85435A71C91D46C00D19EF4 /* _100DaysOfReactNativeTests.swift */,
+				D85435A91C91D46C00D19EF4 /* Info.plist */,
+			);
+			path = _100DaysOfReactNativeTests;
+			sourceTree = "<group>";
+		};
+		D85435F11C91D65300D19EF4 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				D874263B1C92654D005244B7 /* RCTLinking.xcodeproj */,
+				D85435E31C91D64A00D19EF4 /* RCTWebSocket.xcodeproj */,
+				D85435DD1C91D63A00D19EF4 /* RCTVibration.xcodeproj */,
+				D85435D71C91D60600D19EF4 /* RCTText.xcodeproj */,
+				D85435D11C91D5EF00D19EF4 /* RCTSettings.xcodeproj */,
+				D85435CB1C91D5DD00D19EF4 /* RCTNetwork.xcodeproj */,
+				D85435C51C91D5BF00D19EF4 /* RCTImage.xcodeproj */,
+				D85435BF1C91D58600D19EF4 /* RCTGeolocation.xcodeproj */,
+				D85435B91C91D56300D19EF4 /* RCTActionSheet.xcodeproj */,
+				D85435B21C91D52500D19EF4 /* React.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		D874263C1C92654D005244B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D87426401C92654D005244B7 /* libRCTLinking.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D87426421C926565005244B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D87426461C926565005244B7 /* libRCTWebSocket.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D87426471C926573005244B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D874264B1C926573005244B7 /* libRCTVibration.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D874264C1C92657B005244B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D87426501C92657B005244B7 /* libRCTText.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D87426511C926584005244B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D87426551C926584005244B7 /* libRCTSettings.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D87426561C92658C005244B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D874265A1C92658D005244B7 /* libRCTNetwork.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D874265B1C926596005244B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D874265F1C926596005244B7 /* libRCTImage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D87426601C92659F005244B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D87426641C92659F005244B7 /* libRCTGeolocation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D87426651C9265A8005244B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D87426691C9265A8005244B7 /* libRCTActionSheet.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D874266A1C9265B3005244B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D874266E1C9265B3005244B7 /* libReact.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D87426781C9268A4005244B7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D85435921C91D46C00D19EF4 /* AppDelegate.swift */,
+				D854359E1C91D46C00D19EF4 /* Info.plist */,
+				D85435F21C91D71800D19EF4 /* _100DaysOfReactNative-Bridging-Header.h */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		D87426791C9268B0005244B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D85435991C91D46C00D19EF4 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D874267A1C9268B8005244B7 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				D854359B1C91D46C00D19EF4 /* LaunchScreen.storyboard */,
+			);
+			name = UserInterface;
+			sourceTree = "<group>";
+		};
+		D874267B1C9268C8005244B7 /* RNManager */ = {
+			isa = PBXGroup;
+			children = (
+				D874267C1C926905005244B7 /* MapManager.swift */,
+				D8182F4B1C93074C0068241C /* MapManagerBridge.m */,
+			);
+			name = RNManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D854358E1C91D46C00D19EF4 /* _100DaysOfReactNative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85435AC1C91D46C00D19EF4 /* Build configuration list for PBXNativeTarget "_100DaysOfReactNative" */;
+			buildPhases = (
+				D854358B1C91D46C00D19EF4 /* Sources */,
+				D854358C1C91D46C00D19EF4 /* Frameworks */,
+				D854358D1C91D46C00D19EF4 /* Resources */,
+				D874263A1C9264EC005244B7 /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = _100DaysOfReactNative;
+			productName = _100DaysOfReactNative;
+			productReference = D854358F1C91D46C00D19EF4 /* _100DaysOfReactNative.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D85435A21C91D46C00D19EF4 /* _100DaysOfReactNativeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85435AF1C91D46C00D19EF4 /* Build configuration list for PBXNativeTarget "_100DaysOfReactNativeTests" */;
+			buildPhases = (
+				D854359F1C91D46C00D19EF4 /* Sources */,
+				D85435A01C91D46C00D19EF4 /* Frameworks */,
+				D85435A11C91D46C00D19EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D85435A51C91D46C00D19EF4 /* PBXTargetDependency */,
+			);
+			name = _100DaysOfReactNativeTests;
+			productName = _100DaysOfReactNativeTests;
+			productReference = D85435A31C91D46C00D19EF4 /* _100DaysOfReactNativeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D85435871C91D46C00D19EF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "星夜暮晨";
+				TargetAttributes = {
+					D854358E1C91D46C00D19EF4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D85435A21C91D46C00D19EF4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D854358E1C91D46C00D19EF4;
+					};
+				};
+			};
+			buildConfigurationList = D854358A1C91D46C00D19EF4 /* Build configuration list for PBXProject "_100DaysOfReactNative" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D85435861C91D46C00D19EF4;
+			productRefGroup = D85435901C91D46C00D19EF4 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D87426651C9265A8005244B7 /* Products */;
+					ProjectRef = D85435B91C91D56300D19EF4 /* RCTActionSheet.xcodeproj */;
+				},
+				{
+					ProductGroup = D87426601C92659F005244B7 /* Products */;
+					ProjectRef = D85435BF1C91D58600D19EF4 /* RCTGeolocation.xcodeproj */;
+				},
+				{
+					ProductGroup = D874265B1C926596005244B7 /* Products */;
+					ProjectRef = D85435C51C91D5BF00D19EF4 /* RCTImage.xcodeproj */;
+				},
+				{
+					ProductGroup = D874263C1C92654D005244B7 /* Products */;
+					ProjectRef = D874263B1C92654D005244B7 /* RCTLinking.xcodeproj */;
+				},
+				{
+					ProductGroup = D87426561C92658C005244B7 /* Products */;
+					ProjectRef = D85435CB1C91D5DD00D19EF4 /* RCTNetwork.xcodeproj */;
+				},
+				{
+					ProductGroup = D87426511C926584005244B7 /* Products */;
+					ProjectRef = D85435D11C91D5EF00D19EF4 /* RCTSettings.xcodeproj */;
+				},
+				{
+					ProductGroup = D874264C1C92657B005244B7 /* Products */;
+					ProjectRef = D85435D71C91D60600D19EF4 /* RCTText.xcodeproj */;
+				},
+				{
+					ProductGroup = D87426471C926573005244B7 /* Products */;
+					ProjectRef = D85435DD1C91D63A00D19EF4 /* RCTVibration.xcodeproj */;
+				},
+				{
+					ProductGroup = D87426421C926565005244B7 /* Products */;
+					ProjectRef = D85435E31C91D64A00D19EF4 /* RCTWebSocket.xcodeproj */;
+				},
+				{
+					ProductGroup = D874266A1C9265B3005244B7 /* Products */;
+					ProjectRef = D85435B21C91D52500D19EF4 /* React.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D854358E1C91D46C00D19EF4 /* _100DaysOfReactNative */,
+				D85435A21C91D46C00D19EF4 /* _100DaysOfReactNativeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D87426401C92654D005244B7 /* libRCTLinking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTLinking.a;
+			remoteRef = D874263F1C92654D005244B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D87426461C926565005244B7 /* libRCTWebSocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTWebSocket.a;
+			remoteRef = D87426451C926565005244B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D874264B1C926573005244B7 /* libRCTVibration.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTVibration.a;
+			remoteRef = D874264A1C926573005244B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D87426501C92657B005244B7 /* libRCTText.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTText.a;
+			remoteRef = D874264F1C92657B005244B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D87426551C926584005244B7 /* libRCTSettings.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTSettings.a;
+			remoteRef = D87426541C926584005244B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D874265A1C92658D005244B7 /* libRCTNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTNetwork.a;
+			remoteRef = D87426591C92658D005244B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D874265F1C926596005244B7 /* libRCTImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTImage.a;
+			remoteRef = D874265E1C926596005244B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D87426641C92659F005244B7 /* libRCTGeolocation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTGeolocation.a;
+			remoteRef = D87426631C92659F005244B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D87426691C9265A8005244B7 /* libRCTActionSheet.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTActionSheet.a;
+			remoteRef = D87426681C9265A8005244B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D874266E1C9265B3005244B7 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = D874266D1C9265B3005244B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D854358D1C91D46C00D19EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D854359D1C91D46C00D19EF4 /* LaunchScreen.storyboard in Resources */,
+				D854359A1C91D46C00D19EF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85435A11C91D46C00D19EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D874263A1C9264EC005244B7 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D854358B1C91D46C00D19EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D874267D1C926905005244B7 /* MapManager.swift in Sources */,
+				D8182F4C1C93074C0068241C /* MapManagerBridge.m in Sources */,
+				D85435931C91D46C00D19EF4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D854359F1C91D46C00D19EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85435A81C91D46C00D19EF4 /* _100DaysOfReactNativeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D85435A51C91D46C00D19EF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D854358E1C91D46C00D19EF4 /* _100DaysOfReactNative */;
+			targetProxy = D85435A41C91D46C00D19EF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D854359B1C91D46C00D19EF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D854359C1C91D46C00D19EF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D85435AA1C91D46C00D19EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D85435AB1C91D46C00D19EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D85435AD1C91D46C00D19EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				INFOPLIST_FILE = _100DaysOfReactNative/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "gg.swift.-100DaysOfReactNative";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "_100DaysOfReactNative/_100DaysOfReactNative-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D85435AE1C91D46C00D19EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				INFOPLIST_FILE = _100DaysOfReactNative/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "gg.swift.-100DaysOfReactNative";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "_100DaysOfReactNative/_100DaysOfReactNative-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D85435B01C91D46C00D19EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = _100DaysOfReactNativeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gg.swift.-100DaysOfReactNativeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/_100DaysOfReactNative.app/_100DaysOfReactNative";
+			};
+			name = Debug;
+		};
+		D85435B11C91D46C00D19EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = _100DaysOfReactNativeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gg.swift.-100DaysOfReactNativeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/_100DaysOfReactNative.app/_100DaysOfReactNative";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D854358A1C91D46C00D19EF4 /* Build configuration list for PBXProject "_100DaysOfReactNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85435AA1C91D46C00D19EF4 /* Debug */,
+				D85435AB1C91D46C00D19EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85435AC1C91D46C00D19EF4 /* Build configuration list for PBXNativeTarget "_100DaysOfReactNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85435AD1C91D46C00D19EF4 /* Debug */,
+				D85435AE1C91D46C00D19EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85435AF1C91D46C00D19EF4 /* Build configuration list for PBXNativeTarget "_100DaysOfReactNativeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85435B01C91D46C00D19EF4 /* Debug */,
+				D85435B11C91D46C00D19EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D85435871C91D46C00D19EF4 /* Project object */;
+}

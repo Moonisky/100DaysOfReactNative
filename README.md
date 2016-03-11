@@ -110,3 +110,18 @@ In this project, I learned how to:
 Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
 
 New Functionalities: [RCTDeviceEventEmitter](http://facebook.github.io/react-native/docs/alertios.html#content)
+
+##Project 7: Convert React Native Project From Objective-C To Swift
+
+> March 11, 2016
+
+![SwiftProject](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/%237%20SwiftProject.png)
+
+In this project, I learned how to:
+
+* Convert React Native project from Objective-C to Swift, so I could write native code in Swift instead of Objective-C.
+* Create a `MKMapView` and bridge it to React Native, then use it as an React Component.
+
+Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
+
+New Functionalities: [Native UI Components](http://facebook.github.io/react-native/docs/native-components-ios.html#content)
