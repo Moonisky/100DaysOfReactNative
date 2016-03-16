@@ -125,3 +125,20 @@ In this project, I learned how to:
 Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
 
 New Functionalities: [Native UI Components](http://facebook.github.io/react-native/docs/native-components-ios.html#content)
+
+##Project 8: Swipe To Dismiss Keyboard
+
+> March 16, 2016
+
+![SwipeDismiss](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/%238%20SwipeDismissKeyboard.png)
+
+In this project, I learned how to:
+
+* Work with Gestures.
+* Combine `Navigator`(from #6) and `Custom NavigationBar`(from #4) together.
+* Customize the navigation bar item with images.
+* Auto-launch the Keyboard when the View loads.
+
+Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
+
+New Functionalities: [Gesture Responder System](http://facebook.github.io/react-native/docs/gesture-responder-system.html#content), [Image]()
