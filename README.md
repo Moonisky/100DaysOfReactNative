@@ -130,7 +130,7 @@ New Functionalities: [Native UI Components](http://facebook.github.io/react-nati
 
 > March 16, 2016
 
-![SwipeDismiss](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/%238%20SwipeDismissKeyboard.png)
+![SwipeDismiss](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/%238%20SwipeDismissKeyboard.gif)
 
 In this project, I learned how to:
 
