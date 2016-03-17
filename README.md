@@ -157,4 +157,4 @@ In this project, I learned how to:
 
 Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
 
-New Functionalities: [Gesture Responder System](http://facebook.github.io/react-native/docs/gesture-responder-system.html#content), [Image]()
+New Functionalities: [RefreshControl](http://facebook.github.io/react-native/docs/refreshcontrol.html#content)
