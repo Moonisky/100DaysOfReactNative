@@ -141,4 +141,20 @@ In this project, I learned how to:
 
 Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
 
+New Functionalities: [Gesture Responder System](http://facebook.github.io/react-native/docs/gesture-responder-system.html#content), [Image](http://facebook.github.io/react-native/docs/image.html#content)
+
+##Project 9: Pull To Refresh List View
+
+> March 16, 2016
+
+![PullRefresh](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/%239%20PullRefresh.gif)
+
+In this project, I learned how to:
+
+* Create a custom Refresh Control.
+* Stop refresh animation after 2 seconds while the has finished (virtually) updating.
+* Update the table with refreshed local data.
+
+Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
+
 New Functionalities: [Gesture Responder System](http://facebook.github.io/react-native/docs/gesture-responder-system.html#content), [Image]()
