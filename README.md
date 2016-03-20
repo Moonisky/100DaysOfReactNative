@@ -4,6 +4,10 @@
 
 Since Facebook has announced [React Native](http://facebook.github.io/react-native/) as the world-class frameworks by using JaveScript and React, many programmers were pleased to learn it. Because the company which I'm interested in is using React Native for developing their apps, so I decided to give it a shot. I wish I could be able to finish this project before May.
 
+## Tutorials & Experience
+
+* **Tutorial 1** [开始学习 React Native](https://github.com/SemperIdem/100DaysOfReactNative/blob/master/Articles/%231%20-%20开始学习%20React%20Native.md)
+
 ##Project 1: Tap Counter
 
 > March 2, 2016

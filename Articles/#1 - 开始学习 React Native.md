@@ -147,7 +147,7 @@ npm config set disturl https://npm.taobao.org/dist
 
 启动成功的界面如下所示：
 
-![iOS RN Hello](/Users/SemperIdem/Pictures/FN2V63AD2J.com.tencent.ScreenCapture2/QQ20160320-0@2x.png)
+![iOS RN Hello](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/Article%231-1%20iOS_HelloWorld.png)
 
 ###打开 Android 工程
 
@@ -155,10 +155,10 @@ npm config set disturl https://npm.taobao.org/dist
 
 * 打开 Genymotion，然后选择一个模拟器设备，如图所示。
 
-  ![Genymotion 界面](/Users/SemperIdem/Pictures/FN2V63AD2J.com.tencent.ScreenCapture2/QQ20160320-2@2x.png)
+  ![Genymotion 界面](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/Article%231-2%20Genymotion_Select.png)
 
 
-* 如果没有创建过模拟器设备的话，可以点击其中的 Add 按钮，选择一个合适版本、合适屏幕尺寸的模拟器，然后点击 Next。 ![选择模拟器](/Users/SemperIdem/Pictures/FN2V63AD2J.com.tencent.ScreenCapture2/QQ20160320-3@2x.png)
+* 如果没有创建过模拟器设备的话，可以点击其中的 Add 按钮，选择一个合适版本、合适屏幕尺寸的模拟器，然后点击 Next。 ![选择模拟器](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/Article%231-3%20Genymotion_Add.png)
 
 
 * 给这个模拟器输入一个合适的名字，然后点击 Next，Genymotion 就会开始相关的必要文件，下载完毕后，模拟器就成功创建了。
