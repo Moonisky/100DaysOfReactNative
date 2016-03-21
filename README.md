@@ -7,13 +7,11 @@ Since Facebook has announced [React Native](http://facebook.github.io/react-nati
 ## Tutorials & Experience
 
 * **Tutorial 1** [开始学习 React Native](https://github.com/SemperIdem/100DaysOfReactNative/blob/master/Articles/%231%20-%20开始学习%20React%20Native.md)
-* **Tutorial 2** [Hello, React Native]()
+* **Tutorial 2** [Hello, React Native](https://github.com/SemperIdem/100DaysOfReactNative/blob/master/Articles/%232%20-%20Hello%2C%20React%20Native.md)
 
 ##Project 1: Tap Counter
 
 > March 2, 2016 - iOS
->
-> March 20, 2016 - Android
 
 ![Tap Counter](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/%231%20TapCounter.gif)
 
