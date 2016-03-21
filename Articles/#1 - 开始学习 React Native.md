@@ -171,7 +171,7 @@ npm config set disturl https://npm.taobao.org/dist
   react-native run-android
   ```
 
-  第一次运行这个命令的时候，React Native 会下载适用于 Android 环境的必要文件，随后就可以成功启动了。界面如下所示： ![Android RN Hello](/Users/SemperIdem/Pictures/FN2V63AD2J.com.tencent.ScreenCapture2/QQ20160320-1@2x.png)
+  第一次运行这个命令的时候，React Native 会下载适用于 Android 环境的必要文件，随后就可以成功启动了。界面如下所示： ![Android RN Hello](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/Article%231-4%20Android_HelloWorld.png)
 
 ### 包服务器
 

@@ -7,10 +7,13 @@ Since Facebook has announced [React Native](http://facebook.github.io/react-nati
 ## Tutorials & Experience
 
 * **Tutorial 1** [开始学习 React Native](https://github.com/SemperIdem/100DaysOfReactNative/blob/master/Articles/%231%20-%20开始学习%20React%20Native.md)
+* **Tutorial 2** [Hello, React Native]()
 
 ##Project 1: Tap Counter
 
-> March 2, 2016
+> March 2, 2016 - iOS
+>
+> March 20, 2016 - Android
 
 ![Tap Counter](https://raw.githubusercontent.com/SemperIdem/100DaysOfReactNative/master/Resources/%231%20TapCounter.gif)
 
@@ -23,7 +26,7 @@ In this project, I learned how to:
 * Save and update component's appearance and data with `State`.
 * Understand the basic knowledges of the `React Native` iOS app.
 
-Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/)
+Tools: [Xcode 7](https://developer.apple.com/xcode/), [React Native 0.21](http://facebook.github.io/react-native/), [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html), [Genymotion](https://www.genymotion.com/)
 
 New Functionalities: [Text](http://facebook.github.io/react-native/docs/text.html#content), [TouchableHightlight](http://facebook.github.io/react-native/docs/touchablehighlight.html#content), [Navigator](http://facebook.github.io/react-native/docs/navigator.html#content), [Style](http://facebook.github.io/react-native/docs/style.html#content)
 
